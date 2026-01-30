@@ -24,7 +24,7 @@ function binarySearch() {
 //sort test array using Bubble Sort
 function bubbleSort(arr) {
 
-document.getElementById("output_bubble").innerHTML += arr
+document.getElementById("output_bubble").innerHTML = "before Bubble: " + arr
 /*  Bubble Sort pseudo code
 
     for i from 0 to len
@@ -32,14 +32,14 @@ document.getElementById("output_bubble").innerHTML += arr
         if a[j] > a[j+1]
           swap(a[j],a[j+1])
 */    
-document.getElementById("output_bubble").innerHTML += arr
+document.getElementById("output_bubble").innerHTML += "<br>after Bubble: " + arr
 
 }
 
 //sort test array using selection sort
 function selectionSort(arr) {
 
-  document.getElementById("output_selection").innerHTML += arr
+  document.getElementById("output_selection").innerHTML = "<br>before Selection: " + arr
 
 
 /*  Selection Sort pseudo code
@@ -58,7 +58,7 @@ function selectionSort(arr) {
         swap(arr,a[min],a[i])
 */ 
 
-  document.getElementById("output_selection").innerHTML += arr
+  document.getElementById("output_selection").innerHTML += "<br>after Selection: " + arr
 
 }
   
